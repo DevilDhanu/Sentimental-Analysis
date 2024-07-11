@@ -12,6 +12,6 @@ Senti
 YoutubeCommentScrapper 
 re
 nltk.download('vader_lexicon')
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+nltk.sentiment.vader import SentimentIntensityAnalyzer
 plotly.graph_objects 
 typing 
