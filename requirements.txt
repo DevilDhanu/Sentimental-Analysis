@@ -15,3 +15,6 @@ nltk.download('vader_lexicon')
 nltk.sentiment.vader 
 plotly.graph_objects 
 typing 
+googleapiclient.discovery 
+collections 
+googleapiclient.errors 
