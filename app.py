@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 import csv
-from Senti import extract_video_id, analyze_sentiment, bar_chart, plot_sentiment
-from YoutubeCommentScrapper import save_video_comments_to_csv, get_channel_info, youtube, get_channel_id, get_video_stats
+from modules.Senti import extract_video_id, analyze_sentiment, bar_chart, plot_sentiment
+from modules.YoutubeCommentScrapper import save_video_comments_to_csv, get_channel_info, youtube, get_channel_id, get_video_stats
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 
